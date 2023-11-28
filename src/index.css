@@ -1,0 +1,14 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Definição da altura de 100% para elementos raiz, como html, body e #root */
+html,
+body,
+#root {
+  height: 100%;
+}

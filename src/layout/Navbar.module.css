@@ -1,0 +1,30 @@
+/* Navbar.module.css */
+
+/* Estilos para a barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+  }
+  
+  /* Estilos para a lista de navegação */
+  .list {
+    align-items: center;
+    display: flex;
+    list-style: none;
+  }
+  
+  /* Estilos para cada item da lista de navegação */
+  .item a {
+    /* Adicionando estilos para os links dentro dos itens */
+    margin-right: 1mm; /* Margem entre os itens */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Removendo a decoração de texto (sublinhado) */
+  }
+  
+  /* Estilos para os links quando passam o mouse por cima */
+  .item a:hover {
+    color: #fb3; /* Mudando a cor do texto ao passar o mouse por cima */
+  }
+  
