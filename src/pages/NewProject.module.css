@@ -2,7 +2,6 @@
   width: 100vh;
   margin: 0 auto;
   padding: 3em;
-  background-image: url('../img/bg.png'); /* Substitua pelo caminho real da sua imagem */
   background-size: cover; /* Garante que a imagem cubra todo o contêiner */
   background-position: center; /* Centraliza a imagem no contêiner */
 }
