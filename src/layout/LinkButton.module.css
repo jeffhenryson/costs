@@ -1,0 +1,34 @@
+/* LinkButton.module.css */
+
+.linkButton {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px; /* Faz o botão completamente redondo */
+  color: #fb3;
+  background-color: #222;
+  border: 2px solid #222;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-radius 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fb3;
+  border-color: #fb3;
+  color: #222;
+  border-radius: 10px; /* Reduz o raio ao passar o mouse para manter a suavidade */
+}
+
+.btn:active {
+  background-color: #111;
+  border-color: #111;
+}

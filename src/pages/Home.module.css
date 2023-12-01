@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+  width: 100%; /* Isso garante que a seção ocupe 100% da altura da tela */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 span {
+  color: #fb3;
+  padding: 0 0.2em;
+  background-color: #222; /* Cor do texto para o parágrafo */
+}
+
+p{
+    color: #555;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+}

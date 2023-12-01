@@ -1,0 +1,33 @@
+/* Footer.module.css */
+
+.footer {
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto ao centro */
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  cursor: pointer; /* Altera o cursor para o símbolo de clique ao passar o mouse */
+}
+
+.social_list li {
+  margin: 0em 1em;
+}
+
+.social_list li:hover {
+  text-decoration: underline;
+  color: #fb3; /* Adicionar sublinhado ao passar o mouse sobre os links */
+}
+
+.copy_right {
+  margin-top: 2em;
+}
+
+.copy_right span {
+  color: #fb3;
+  font-weight: bold;
+}

@@ -1,0 +1,37 @@
+/* Input.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #fb3; /* Cor do texto da label */
+    background: linear-gradient(to left, #222, #222); 
+    padding: 5px; /* Espaçamento interno da label */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: color 0.3s ease, background 0.3s ease; /* Efeito de transição na cor do texto e no gradiente de fundo */
+  }
+  
+  label:hover {
+    color: #fb3; /* Cor do texto amarelo mais claro ao passar o mouse */
+    background: linear-gradient(to left, #292929, #222); /* Inverte o gradiente ao passar o mouse */
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #fb3;
+    border-radius: 5px;
+    color: #fb3;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #222;
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.5);
+  }
+  
